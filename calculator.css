@@ -1,0 +1,118 @@
+body{
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url('Polygon\ Luminary.svg'); /* Set SVG file as background */
+    background-size: cover; /* Cover the entire background */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.time {
+    position: absolute;
+    transform: translateY(-50%);
+    color:white;
+    margin-left: 35px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.phone-container{
+    max-width: 450px;
+    margin: 0 auto; 
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    overflow: hidden; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), /* top shadow */
+    0 20px 40px rgba(0, 0, 0, 0.1); 
+    padding: 0px; 
+    background: #070707; 
+    height: 100vh;
+}
+
+.icon {
+    width: 15px; /* Set the width of the icon */
+    height: 38px; /* Set the height of the icon */
+    background-image: url('alll.jpeg'); /*å Set the background image */
+    background-color: black; /* Set the background color to white */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center; /* Center the background image */
+    background-size: contain; /* Ensure the entire image fits within the container */
+    padding-left: 650px; /* Add padding to the left side (adjust as needed) */
+    margin-top: 10px;
+}
+
+.display{
+    color:white;
+    text-align: right;
+    margin-bottom: 50px;
+    margin-top:90px;
+    margin-right: 20px;
+    font-size: 100px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+button{
+    width: 100px; /* Set a fixed width */
+    height: 100px; /* Set a fixed height */
+    font-size: 60px; 
+    padding: 10px;
+    border: none;
+    border-radius: 50%; /* Make the border-radius 50% to create a round button */
+    background-color: rgb(51, 47, 47);
+    cursor: pointer;
+    color: white;
+}
+.last.column {
+    margin-top: 6px;
+    gap: 10px;
+}
+
+.last.column .zero-button{
+    width:200px;
+    height: 100px; 
+    font-size:60px;
+    border-radius: 30%;
+}
+.last.column .equalto{
+    background-color: rgb(225, 142, 41);
+    }
+
+.buttons .divide{
+background-color: rgb(225, 142, 41);
+}
+
+.buttons .multiply{
+    background-color: rgb(225, 142, 41);
+    }
+
+.buttons .subtract{
+     background-color: rgb(225, 142, 41);
+    }
+
+.buttons .add{
+background-color: rgb(225, 142, 41);
+}
+
+.buttons .AC{
+    background-color:grey;
+    color:black;
+    }
+
+.buttons .plusminus{
+     background-color: grey;
+     color: black; 
+    }
+
+.buttons .percentage{
+background-color: grey;
+color: black
+}
+
+
+
+
+
+
